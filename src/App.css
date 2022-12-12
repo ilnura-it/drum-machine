@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: rgb(206, 185, 192);
+  height: 100vh;
+  width: 100%;
+}
+#drum-machine{
+  background-color: rgb(228, 216, 220);
+  padding: 15px;
+  width: 450px;
+  height: auto;
+  margin: auto;
+}
+#display{
+  background-color: rgb(147, 181, 198);
+  width: 250px;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#key-pads{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pads{
+  display: flex;
+  align-items: center;
+}
+.drum-pad{
+  background-color: rgb(201, 204, 213);
+  margin: 5px;
+  padding: 15px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+audio{
+  display: none;
+}
